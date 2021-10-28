@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Horloge</title>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="" />
+        <!--<script src="checkbox.js"></script>-->
+        <style>
+            form input[name='bg']:disabled{
+                color : lightgrey;
+                opacity : 0.2;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Formulaire Horloge</h1>
+        </header>
+        <fieldset>
+            <form action="horloge.php" method="GET" id="form">
+                <label for="hours">Hours :</label>
+                <input name="hours" type="number" id="hours" min="0" max="23" step="1">
+                <label for="minutes" >minutes :</label>
+                <input name="minutes" id="minutes" type="number" min="0" max="59" step="1">
+                <label for="seconds">seconds</label>
+                <input id="seconds" name="seconds" type="number" min="0" max="59" step="1">  
+                <label for="hands">hands</label>
+                <input id="hands" name="hands" type="color" value="#000001">
+                <label for="markers">markers</label>
+                <input id="markers" name="markers" value="#000321">
+                <label for="bg">Bg</label>
+                <input id="bg" name="bg" type="color" value="#000000" checkbox >
+
+                <button type="submit" name="submit" value="ok">Submit</button> 
+            </form>
+        </fieldset>
+
+        
+       <!-- à compléter par un formulaire -->
+     
+    </body>
+    
+</html>

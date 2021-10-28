@@ -1,0 +1,43 @@
+[18-Jan-2021 17:18:45 Europe/Paris] PHP Notice:  Array to string conversion in /home/karimamahtil/educarso.kamatil.com/services/getCommunes.php on line 14
+[18-Jan-2021 17:19:32 Europe/Paris] PHP Notice:  Array to string conversion in /home/karimamahtil/educarso.kamatil.com/services/getCommunes.php on line 14
+[18-Jan-2021 17:38:04 Europe/Paris] PHP Fatal error:  Uncaught TypeError: Return value of DataLayer::getCommunes() must be of the type array, bool returned in /home/karimamahtil/educarso.kamatil.com/lib/DataLayer.class.php:65
+Stack trace:
+#0 /home/karimamahtil/educarso.kamatil.com/services/getCommunes.php(12): DataLayer->getCommunes(3)
+#1 {main}
+  thrown in /home/karimamahtil/educarso.kamatil.com/lib/DataLayer.class.php on line 65
+[18-Jan-2021 17:38:09 Europe/Paris] PHP Fatal error:  Uncaught TypeError: Return value of DataLayer::getCommunes() must be of the type array, bool returned in /home/karimamahtil/educarso.kamatil.com/lib/DataLayer.class.php:65
+Stack trace:
+#0 /home/karimamahtil/educarso.kamatil.com/services/getCommunes.php(12): DataLayer->getCommunes(3)
+#1 {main}
+  thrown in /home/karimamahtil/educarso.kamatil.com/lib/DataLayer.class.php on line 65
+[18-Jan-2021 17:45:50 Europe/Paris] PHP Fatal error:  Uncaught Error: Call to undefined function checkUnsignedInt() in /home/karimamahtil/educarso.kamatil.com/services/getCommunes.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/karimamahtil/educarso.kamatil.com/services/getCommunes.php on line 9
+[18-Jan-2021 17:46:20 Europe/Paris] PHP Notice:  Undefined variable: territoire in /home/karimamahtil/educarso.kamatil.com/services/getCommunes.php on line 7
+[18-Jan-2021 17:46:52 Europe/Paris] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/karimamahtil/educarso.kamatil.com/services/getCommunes.php on line 14
+[18-Jan-2021 17:47:20 Europe/Paris] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/karimamahtil/educarso.kamatil.com/services/getCommunes.php on line 14
+[18-Jan-2021 17:50:17 Europe/Paris] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/karimamahtil/educarso.kamatil.com/services/getCommunes.php on line 14
+[18-Jan-2021 17:56:03 Europe/Paris] PHP Notice:  Array to string conversion in /home/karimamahtil/educarso.kamatil.com/lib/common_service.php on line 11
+[18-Jan-2021 19:04:04 Europe/Paris] PHP Fatal error:  Uncaught TypeError: Return value of DataLayer::createUser() must be of the type bool, none returned in /home/karimamahtil/educarso.kamatil.com/lib/DataLayer.class.php:125
+Stack trace:
+#0 /home/karimamahtil/educarso.kamatil.com/services/register.php(9): DataLayer->createUser('kamatil', 'azqswx', 'Karim', 'Amahtil')
+#1 {main}
+  thrown in /home/karimamahtil/educarso.kamatil.com/lib/DataLayer.class.php on line 125
+[18-Jan-2021 19:23:58 Europe/Paris] PHP Fatal error:  Uncaught Error: Call to undefined function authentification() in /home/karimamahtil/educarso.kamatil.com/services/login.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/karimamahtil/educarso.kamatil.com/services/login.php on line 9
+[18-Jan-2021 19:44:59 Europe/Paris] PHP Notice:  Undefined variable: data in /home/karimamahtil/educarso.kamatil.com/lib/watchdog.php on line 46
+[18-Jan-2021 19:44:59 Europe/Paris] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to tryConnect() must be callable, string given, called in /home/karimamahtil/educarso.kamatil.com/services/login.php on line 10 and defined in /home/karimamahtil/educarso.kamatil.com/lib/watchdog.php:29
+Stack trace:
+#0 /home/karimamahtil/educarso.kamatil.com/services/login.php(10): tryConnect('authentificatio...')
+#1 {main}
+  thrown in /home/karimamahtil/educarso.kamatil.com/lib/watchdog.php on line 29
+[18-Jan-2021 19:45:52 Europe/Paris] PHP Notice:  Undefined variable: data in /home/karimamahtil/educarso.kamatil.com/lib/watchdog.php on line 46
+[18-Jan-2021 19:50:32 Europe/Paris] PHP Notice:  Undefined variable: data in /home/karimamahtil/educarso.kamatil.com/lib/watchdog.php on line 46
+[18-Jan-2021 19:51:24 Europe/Paris] PHP Notice:  Undefined variable: data in /home/karimamahtil/educarso.kamatil.com/lib/watchdog.php on line 46
+[18-Jan-2021 19:52:03 Europe/Paris] PHP Notice:  Undefined variable: data in /home/karimamahtil/educarso.kamatil.com/lib/watchdog.php on line 46
+[18-Jan-2021 19:52:38 Europe/Paris] PHP Notice:  Undefined variable: data in /home/karimamahtil/educarso.kamatil.com/lib/watchdog.php on line 46
+[18-Jan-2021 19:53:35 Europe/Paris] PHP Notice:  Undefined variable: data in /home/karimamahtil/educarso.kamatil.com/lib/watchdog.php on line 46
+[18-Jan-2021 19:53:52 Europe/Paris] PHP Notice:  Undefined variable: data in /home/karimamahtil/educarso.kamatil.com/lib/watchdog.php on line 46
